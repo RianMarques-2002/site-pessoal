@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./form.css" />
+    <link rel="icon" href="./images/page_icon.png" />
+</head>
+<body>
+    <header>
+        <div class="go_back">
+            <a href="./index.html"><h2>&lt; Voltar</h2></a>
+        </div>
+    </header>
+    <form>
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name" required ><br>
+        <label for="email">Email:</label><br>
+        <input type="mail" id="email" name="email" required ><br>
+        <label for="reason">Motivo do contato:</label><br>
+        <select id="reason" name="reason">
+        <option value="vaga de emprego">Vaga de emprego</option>
+        <option value="networing">Networking</option>
+        <option value="outros">Outros</option>
+        </select><br>
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" required ></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <footer>
+        <p>© Copyright 2022 - Rian Mateus, estudante de desenvolvimento <strong>Full Stack Java</strong> pela <strong>Escola Britânica de Artes Criativas e Tecnologia</strong></p>
+    </footer>
+</body>
+</html>

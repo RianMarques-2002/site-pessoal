@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+header {
+    padding: 16px 0;
+    background-color: #4191e1;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow: 0px 1px 5px #111111;
+    color: #111111;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+header nav li {
+    display: inline;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #111111
+}
+
+header nav li a:hover {
+    color: #f2f2f2;
+}
+
+body {
+    background-color: #d3d3d3;
+    font-family: 'Roboto';
+}
+
+.titles {
+    color: #fa9500;
+    text-shadow: 0.3px 0.3px 0.6px #111111;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#introduction .container img {
+    max-width: 100%;
+    width: 50vh;
+}
+
+#about .container img {
+    max-width: 100%;
+    width: 80vh;
+    margin-top: -300px;
+}
+
+.maxwidth {
+    max-width: 50%;
+    text-align: justify;
+}
+
+#copy-to-form h2 {
+    text-align: center;
+}
+
+.form-call {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 15px auto;
+    display: block;
+}
+
+.form-call a {
+    text-decoration: none;
+}
+
+.form-call a .btn:hover {
+    background-color: #fff;
+    color: #4191e1;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 18px;
+    background-color: #4191e1;
+    box-shadow: 1px 1px 3px #4191e1;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.form-call a .btn {
+    color: #f2f2f2;
+    font-weight: bolder;
+    font-size: large;
+}
+
+/* FINAL DO ARQUIVO CSS */
+footer {
+    width: 100%;
+    background-color: #4191e1;
+    color: #111111;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    box-shadow: 0px 1px 5px #111111;
+}
